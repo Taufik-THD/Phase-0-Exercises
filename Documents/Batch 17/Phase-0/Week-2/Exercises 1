@@ -1,0 +1,57 @@
+============== 1. Newton Second Law ==============
+
+      STORE 'm' with any value
+      STORE 'a' with any value
+      STORE 'result' without any value
+
+      CALCULATE 'm' multiply 'a'
+      SET 'result' value with calculation result
+
+      DISPLAY 'result'
+
+================ 2. Tahun Kabisat ================
+
+      STORE 'years' with any value
+      STORE 'result' without any value
+
+      IF 'years' mod 4 equals 0
+        IF 'years' mod 100 equals 0
+          IF 'years' mod 400 equals 0
+            DO 'result' equal 'kabisat'
+          END IF
+        END IF
+      ELSE
+      DO result equal 'bukan tahun kabisat'
+      END IF
+
+=============== 3. Laundry Kabisat ===============
+
+      STORE 'pakaian' with 0
+      WHILE 'pakaian' < 20
+        pakaian++
+        DISPLAY "Baju ke - " + pakaian
+
+================ 4. Periksa Kuku =================
+
+      STORE 'siswa' with 40
+      STORE 'kukuPanjang' with random value
+      STORE 'tindakan' without any value
+
+      WHILE 'siswa' > 0
+
+        IF 'siswa' === 'kukuPanjang'
+
+          DO 'tindakan' = "hukum"
+          DISPLAY 'siswa' + 'tindakan'
+
+        ELSE
+
+          DO 'tindakan' = "puji"
+          DISPLAY 'siswa' + 'tindakan'
+
+        END IF
+
+        siswa++
+      DISPLAY siswa
+
+=================================================
